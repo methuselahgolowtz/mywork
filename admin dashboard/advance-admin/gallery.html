@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | Dashboard | Search</title>
+
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- PAGE LEVEL STYLES -->
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+    <!--CUSTOM BASIC STYLES-->
+    <link href="assets/css/basic.css" rel="stylesheet" />
+    <!--CUSTOM MAIN STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Admin</a>
+            </div>
+
+            <div class="header-right">
+
+                <a href="message-task.html" class="btn btn-info" title="New Message"><b>30 </b><i class="fa fa-envelope-o fa-2x"></i></a>
+                <a href="message-task.html" class="btn btn-primary" title="New Task"><b>40 </b><i class="fa fa-bars fa-2x"></i></a>
+                <a href="../../login & signup/login.html" class="btn btn-danger" title="Logout"><i class="fa fa-exclamation-circle fa-2x"></i></a>
+
+            </div>
+        </nav>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <div class="user-img-div">
+                            <img src="../../image/people/th-229577100.jpeg" class="img-thumbnail" />
+
+                            <div class="inner-text">
+                                Enock Enock
+                            <br />
+                                <small>Last Login : Today </small>
+                            </div>
+                        </div>
+
+                    </li>
+
+
+                    <li>
+                        <a  href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">Uploaded Photos</h1>
+                        <h1 class="page-subhead-line">This its the place where you can view uploaded photos of differents type and you can manage user </h1>
+
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+<form action="">
+    <input type="text" placeholder="Please search book here." class="form-control" style="padding-top: 10px; margin: 5px;" autofocus autocomplete="">
+    <input type="submit" value="search here" class="form-control" class="btn-success" style="background-color: rgb(68, 163, 68); margin: 5px; color: #fff;">
+</form>
+                
+                <div id="port-folio">
+                      <div class="row " >
+                          <ul id="filters" >
+						<li><span class="filter active" data-filter="landscape nature awesome">All </span></li>
+						<li><span class="filter active">/</span></li>
+						<li><span class="filter" data-filter="landscape">Some</span></li>
+						<li><span class="filter">/</span></li>
+						<li><span class="filter" data-filter="nature">Many</span></li>
+						<li><span class="filter">/</span></li>
+						<li><span class="filter" data-filter="awesome">Some</span></li>
+					</ul>
+                <div class="col-md-4 ">
+
+                    <div class="portfolio-item awesome mix_all" data-cat="awesome" >
+
+
+                        <img src="../../image/th-4249599842.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info " title="Image Title Here" href="../../image/th-3164217334.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="portfolio-item landscape mix_all" data-cat="landscape" >
+
+
+                        <img src="../../image/th-2582888138.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info" title="Image Title Here" href="../../image/th-1996391154.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div class="portfolio-item nature mix_all" data-cat="nature" >
+
+
+                        <img src="../../image/th-2976090510.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                          <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info" title="Image Title Here" href="../../image/th-1612122446.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row " style="padding-top: 50px;">
+                <div class="col-md-4 ">
+
+                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
+
+
+                        <img src="../../image/th-1813549192.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                           <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info " title="Image Title Here" href="../../image/th-2185136524.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
+
+
+                        <img src="../../image/th-3164217334.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info" title="Image Title Here" href="../../image/th-626526664.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
+
+
+                        <img src="../../image/th-2582888138.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                          <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info" title="Image Title Here" href="../../image/th-2841013636.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                    <div class="row "  style="padding-top: 50px;" >
+                <div class="col-md-4 ">
+
+                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
+
+
+                        <img src="../../image/th-2582729302.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview  btn btn-info" title="Image Title Here" href="../../image/th-2582729302.jpeg"> <i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div  class="portfolio-item awesome mix_all" data-cat="awesome" >
+
+
+                        <img src="../../image/th-2976090510.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info" title="Image Title Here" href="../../image/th-2976090510.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+
+                    <div  class="portfolio-item nature landscape mix_all" data-cat="nature landscape" >
+
+
+                        <img src="../../image/th-3408794956.jpeg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                          <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview btn btn-info" title="Image Title Here" href="../../image/th-3408794956.jpeg"><i class="fa fa-plus fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                </div>
+               
+
+            </div>
+
+                  <!--/.Row-->
+                  <hr />
+                  <div class="row" style="padding-bottom: 100px;">
+                      <div class="col-md-6">
+                          <div id="comments-sec">
+                              <h4><strong>Add Books Dashboard </strong></h4>
+                              <hr />
+  
+  
+                              <div class="form-group  ">
+                                  <label>Please Enter Book name</label>
+                                  <input type="text" class="form-control" required="required" placeholder="Enter Bookname" />
+                              </div>
+                              <div class="form-group ">
+                                  <label>Book Id </label>
+                                  <input type="number" class="form-control" required="required" placeholder="Enter Book ID" />
+                              </div>
+                              <div class="form-group ">
+                                <label>Upload Book </label>
+                                <input type="file" class="form-control" required="required" placeholder="Enter Book ID" />
+                            </div>
+                              <div class="form-group">
+                                  <button type="submit" class="btn btn-success">Upload book</button>
+                              </div>
+                          </div>
+  
+                      </div>
+                     
+                      </div>
+                  </div>
+                  <!--/.ROW-->
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <div id="footer-sec">
+        &copy; Library management system
+    </div>
+    <!-- /. FOOTER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+     <!-- PAGE LEVEL SCRIPTS -->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+     <!-- CUSTOM Gallery Call SCRIPTS -->
+    <script src="assets/js/galleryCustom.js"></script>
+</body>
+</html>
